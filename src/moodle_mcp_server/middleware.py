@@ -156,7 +156,6 @@ class MoodleMiddleware(Middleware):
             parameters=toolinfo.get("inputSchema"),
             output_schema=toolinfo.get("outputSchema"),
             icons=[self.icon],
-            enabled=True,
         )
 
 
